@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio portfolio</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="stylesheet" href="./css/sharp-duotone-solid.css">
+
+    <link rel="stylesheet" href="./css/sharp-thin.css">
+
+    <link rel="stylesheet" href="./css/sharp-solid.css">
+
+    <link rel="stylesheet" href="./sharp-regular.css">
+
+    <link rel="stylesheet" href="./css/sharp-light.css">
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/keyframes.css">
+
+    <style>
+        .navbar {
+            background-color: rgba(0, 0, 0, 0);
+            transition: none;
+        }
+
+        #home {
+            background-image: url("./images/overlay-bg.jpg");
+            height: 350px;
+        }
+
+        #home h1 {
+            font-size: 48px;
+        }
+
+        #home p {
+            color: #CDE1F8;
+            line-height: 1.5;
+        }
+
+        .container .row #carouselExampleCaptions .carousel-indicators button {
+            opacity: 1;
+            background-color: transparent !important;
+            border: 2px solid #0077ff;
+        }
+
+        .container .row #carouselExampleCaptions .carousel-indicators .active {
+            opacity: 1;
+            background-color: #0077ff !important;
+            border: 2px solid #0077ff;
+        }
+
+        @media screen and (min-width: 768px) {
+            #home h1 {
+                font-size: 56px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="home" class="position-relative d-flex flex-column align-items-center justify-content-center  bg-before">
+        <!-- start nav bar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container text-white">
+                <a class="navbar-brand fw-bold fs-3 text-white" href="./index.html#home">DevFolio</a>
+                <button class="navbar-toggler collapsed" id="button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fal fa-xmark text-white"></i>
+                    <i class="fal fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 text-uppercase mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0 active " aria-current="page"
+                                href="index.html#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0"
+                                href="./index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0"
+                                href="./index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0"
+                                href="./index.html#portfolio">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0" href="./index.html#blog">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0" href="#">
+                                Drop Down <i class="fat fa-chevron-down"></i>
+                            </a>
+                            <div>
+                                <ul class="list-unstyled position-absolute shadow">
+                                    <li class="p-2 w-100"><a class="text-decoration-none text-black" href="#">Drop Down
+                                            1</a></li>
+                                    <li class="dropdown position-relative p-2 w-100">
+                                        <a href="#" class=" text-decoration-none text-black">
+                                            <span>Deep Drop Down</span>
+                                            <i class="fat fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="list-unstyled position-absolute shadow">
+                                            <li class="p-2 w-100"><a class="text-decoration-none text-black"
+                                                    href="#">Deep
+                                                    Drop Down 1</a></li>
+                                            <li class="p-2 w-100"><a class="text-decoration-none text-black"
+                                                    href="#">Deep
+                                                    Drop Down 2</a></li>
+                                            <li class="p-2 w-100"><a class="text-decoration-none text-black"
+                                                    href="#">Deep
+                                                    Drop Down 3</a></li>
+                                            <li class="p-2 w-100"><a class="text-decoration-none text-black"
+                                                    href="#">Deep
+                                                    Drop Down 4</a></li>
+                                            <li class="p-2 w-100"><a class="text-decoration-none text-black"
+                                                    href="#">Deep
+                                                    Drop Down 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="p-2 w-100"><a class="text-decoration-none text-black" href="#">Drop Down
+                                            2</a></li>
+                                    <li class="p-2 w-100"><a class="text-decoration-none text-black" href="#">Drop Down
+                                            3</a></li>
+                                    <li class="p-2 w-100"><a class="text-decoration-none text-black" href="#">Drop Down
+                                            4</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold fs-6 ps-4 pe-0"
+                                href="./index.html#contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- end  nav bar -->
+
+        <div class=" text-center d-flex  align-items-center justify-content-center">
+            <div class="contant text-white z-3 fw-semibold">
+                <h1 class=" fw-semibold mb-4  text-uppercase">Portfolio Details</h1>
+                <p class=""><a href="index.html#home" class="text-decoration-none text-white">Home</a> / Portfolio
+                    Details</p>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="carouselExampleCaptions" class="carousel slide " data-bs-touch="true" data-bs-delay="100"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-bs-interval="2000">
+                                <img src="./images/portfolio-details-1.jpg" class="d-block w-100" alt="images">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/portfolio-details-2.jpg" class="d-block w-100" alt="slide images">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/portfolio-details-3.jpg" class="d-block w-100" alt="slide images">
+                            </div>
+
+                        </div>
+                        <div class="carousel-indicators position-static mt-4">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active rounded-circle p-2 bg-primary" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="rounded-circle p-2 bg-primary"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3" class="rounded-circle p-2  bg-primary"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="inner">
+                        <div class="card rounded-0 mb-4 shadow-sm p-3 border-0">
+                            <div class="card-body">
+                                <h3 class="fw-bold pb-3 fs-4 card-title  border-bottom border-1 border-light">Project
+                                    information</h3>
+                                <ul class="mb-3 list-unstyled">
+                                    <li class="mb-2"><span class="fw-semibold">Category:</span> Web design</li>
+                                    <li class="mb-2"><span class="fw-semibold">Client:</span> ASU Company</li>
+                                    <li class="mb-2"><span class="fw-semibold">Project date:</span> 01 March, 2020</li>
+                                    <li class="mb-2"><span class="fw-semibold">Project URL:</span><a href="#"
+                                            class="text-decoration-none text-black "> www.example.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h2 class="fw-bold fs-3 mb-4">This is an example of portfolio detail</h2>
+                        <p>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem
+                        repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis
+                        tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer -->
+    <footer class=" p-4 text-white text-center ">
+        <p>© Copyright <strong> DevFolio</strong>. All Rights Reserved</p>
+        <p>Designed by BootstrapMade</p>
+    </footer>
+    <!-- end footer -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
